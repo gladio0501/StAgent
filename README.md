@@ -283,9 +283,3 @@ StemAgent/
 - [Pandas](https://pandas.pydata.org/) / [NumPy](https://numpy.org/) — data processing in generated agents
 - [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) / [urllib](https://docs.python.org/3/library/urllib.html) — lightweight open-web scraping
 - [NLTK](https://www.nltk.org/) — text processing utilities
-
----
-
-## License
-
-MIT
