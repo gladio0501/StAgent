@@ -1,0 +1,13 @@
+{
+  "cases": [
+    {
+      "name": "basic smoke",
+      "input": {
+        "sample": "value"
+      },
+      "expected": {
+        "status": "ok"
+      }
+    }
+  ]
+}

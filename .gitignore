@@ -1,0 +1,82 @@
+# ─── Environment & secrets ────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+*.pyd
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ─── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ─── Agent runtime outputs (not for source control) ───────────────────────────
+archive/
+benchmarks/results/
+benchmarks/data/
+benchmarks/suites/
+chat_inputs/
+ingested_inputs/
+
+# ─── Antigravity / IDE artifacts ──────────────────────────────────────────────
+.gemini/
+
+# ─── Streamlit ────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ─── Jupyter / notebooks ──────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# ─── Coverage & testing ───────────────────────────────────────────────────────
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+*.cover
+coverage.xml
+nosetests.xml
+
+# ─── Type checkers & linters ──────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pytype/
+
+# ─── Editors ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/

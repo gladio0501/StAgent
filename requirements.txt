@@ -1,0 +1,9 @@
+langgraph>=0.2.0
+langchain-core>=0.2.0
+langchain-openai>=0.1.0
+pydantic-ai>=0.0.14
+pandas>=2.2.0
+numpy>=1.26.0
+streamlit
+playwright
+nltk

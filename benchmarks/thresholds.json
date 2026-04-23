@@ -1,0 +1,10 @@
+{
+  "global_score_min": 0.55,
+  "domain_score_min": {
+    "software_engineering": 0.5,
+    "paper_review": 0.5,
+    "olympiad_math": 0.5
+  },
+  "contract_validity_min": 0.9,
+  "invalid_action_rate_max": 0.1
+}
